@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainClass_05_201502273 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" :: 프로그램을 시작합니다. :: ");
