@@ -192,7 +192,7 @@ public class BinaryTree {
 				root.setLeft(new BinaryNode(value.substring(i, i + 1)));
 				q.add(root.getLeft());
 			}
-			if(i + 2 < value.length()){
+			if(i + 2 <= value.length()){
 				root.setRight(new BinaryNode(value.substring(i + 1, i + 2)));
 				q.add(root.getRight());
 			}
